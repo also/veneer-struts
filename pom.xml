@@ -66,5 +66,10 @@ License along with Veneer.  If not, see <http://www.gnu.org/licenses/>.
 			<artifactId>veneer</artifactId>
 			<version>0.1-SNAPSHOT</version>
 		</dependency>
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-core</artifactId>
+            <version>2.0.9</version>
+        </dependency>
 	</dependencies>
 </project>
