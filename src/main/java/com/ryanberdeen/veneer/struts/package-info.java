@@ -17,28 +17,5 @@
  * License along with Veneer.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+/** Veneer core classes. Contains everything necessary to use Veneer. */
 package com.ryanberdeen.veneer.struts;
-
-import org.apache.struts2.ServletActionContext;
-
-import com.ryanberdeen.veneer.RenderContext;
-import com.ryanberdeen.veneer.VeneerSupport;
-
-/** Utility methods for using Veneer inside of Struts.
- * @author Ryan Berdeen
- *
- */
-public class StrutsVeneerSupport {
-	
-	/** Sets the template for the main view in the current request.
-	 */
-	public static void setTemplateName(String templateName) {
-		getContext().setMainTemplateName(templateName);
-	}
-	
-	/** Returns the {@link RenderContext} for the current request.
-	 */
-	public static RenderContext getContext() {
-		return VeneerSupport.getContext(ServletActionContext.getServletContext(), ServletActionContext.getRequest());
-	}
-}
