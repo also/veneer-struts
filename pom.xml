@@ -27,7 +27,7 @@ License along with Veneer.  If not, see <http://www.gnu.org/licenses/>.
 	<artifactId>veneer-struts</artifactId>
 	<packaging>jar</packaging>
 	<name>veneer-spring</name>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	
 	<licenses>
 		<license>
@@ -39,6 +39,14 @@ License along with Veneer.  If not, see <http://www.gnu.org/licenses/>.
 			<url>http://www.gnu.org/licenses/lgpl.txt</url>
 		</license>
 	</licenses>
+
+	<repositories>
+		<repository>
+			<id>maven.ryanberdeen.com</id>
+			<name>Ryan Berdeen</name>
+			<url>http://maven.ryanberdeen.com</url>
+		</repository>
+	</repositories>
 	
 	<build>
 		<pluginManagement>
@@ -64,7 +72,7 @@ License along with Veneer.  If not, see <http://www.gnu.org/licenses/>.
 		<dependency>
 			<groupId>com.ryanberdeen.veneer</groupId>
 			<artifactId>veneer</artifactId>
-			<version>0.1-SNAPSHOT</version>
+			<version>0.1</version>
 		</dependency>
         <dependency>
             <groupId>org.apache.struts</groupId>
